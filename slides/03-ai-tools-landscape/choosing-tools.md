@@ -1,53 +1,36 @@
 ---
-layout: default
+layout: center
 ---
 
-# Choosing the Right Tool
+# Hands-On Exercise
 
-<div class="mt-6">
+<div class="text-xl opacity-80 mt-4 mb-8">
+Initialize your agent memory file
+</div>
 
-### Decision Framework
+<div class="bg-slate-800 p-8 rounded-lg max-w-xl mx-auto">
+
+```bash
+/init
+```
 
 </div>
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="mt-8 max-w-2xl mx-auto">
 
-<div class="p-4 bg-slate-800 rounded-lg">
-
-**Task Type** → **Best Choice**
-
-- Complex reasoning → Claude
-- Quick general tasks → ChatGPT
-- Large codebase analysis → Gemini
-- IDE integration → Copilot/Cursor
-- Terminal workflow → Claude Code / Gemini CLI
+### Steps:
+1. Open your terminal
+2. Navigate to any project directory
+3. Launch your AI coding tool
+4. Type `/init` and press enter
+5. Review the generated memory file
 
 </div>
 
-<div class="p-4 bg-slate-800 rounded-lg">
-
-**Consider Also**
-
-- Team familiarity
-- Existing integrations
-- Cost constraints
-- Privacy requirements
-- Specific language support
-
-</div>
-
-</div>
-
-<div class="mt-6 p-4 bg-green-500/10 rounded-lg">
-
-**Pro Tip:** Most teams use 2-3 tools. Don't commit to just one.
-
-- Claude for deep work
-- Copilot for inline completion
-- ChatGPT for quick questions
-
+<div class="mt-6 p-4 bg-blue-500/10 rounded-lg text-center">
+<strong>5 minutes</strong> - Try it now!
 </div>
 
 <!--
-There's no single best tool. The best AI engineers know when to use which tool. Build a toolkit, not a dependency.
+Walk around and help participants. Common issues: tool not installed, wrong directory, permissions. Have them share interesting things they see in their generated files.
 -->

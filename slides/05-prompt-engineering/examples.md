@@ -1,53 +1,38 @@
 ---
-layout: default
+layout: center
 ---
 
-# Prompt Engineering in Action
+# Hands-On: Create a Slash Command
 
-<div class="grid grid-cols-2 gap-6 mt-4">
+<div class="text-xl opacity-80 mt-4 mb-6">
+Let the AI create your slash command
+</div>
 
-<div>
+<div class="bg-blue-500/10 p-6 rounded-lg max-w-2xl mx-auto">
 
-### Poor Prompt
+### Exercise
 
-```markdown
-Write tests for this function
+1. **Think of a task you do repeatedly**
+   - Code review, testing, documentation, debugging
+
+2. **Ask the AI to create a slash command for it**
+
+```
+Create a slash command that reviews code for
+security vulnerabilities and performance issues.
 ```
 
-**Result:** Generic tests, wrong framework, missing edge cases
+3. **Test your new command**
+   ```bash
+   /review src/api.ts
+   ```
 
 </div>
 
-<div>
-
-### Effective Prompt
-
-```markdown
-Write unit tests for the calculateDiscount
-function below using Jest.
-
-Requirements:
-- Test normal cases (10%, 20%, 50% discounts)
-- Test edge cases (0%, 100%, negative)
-- Test invalid inputs (null, undefined, NaN)
-- Use describe/it blocks
-- Include setup/teardown if needed
-
-Function:
-[paste function here]
-
-Expected behavior:
-- Returns discounted price as number
-- Throws for invalid discount percentages
-- Handles currency rounding to 2 decimals
-```
-
-**Result:** Comprehensive, correctly-structured tests
-
-</div>
-
+<div class="mt-6 p-4 bg-purple-500/10 rounded-lg text-center">
+<strong>5 minutes</strong> - Create your first custom slash command
 </div>
 
 <!--
-The difference is dramatic. The effective prompt takes 30 seconds longer to write but saves 10 minutes of back-and-forth.
+Walk around and help. The AI will create the command file for them. Have participants share what commands they created.
 -->

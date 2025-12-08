@@ -20,9 +20,9 @@ layout: default
 - ai.google.dev/gemini-cli
 - `npm install -g @google/gemini-cli`
 
-**GitHub Copilot**
-- github.com/features/copilot
-- Available in VS Code, JetBrains, Neovim
+**OpenAI Codex**
+- openai.com/codex
+- `npm install -g @openai/codex`
 
 </div>
 
@@ -42,24 +42,9 @@ layout: default
 - Anthropic's prompt library
 - OpenAI cookbook on GitHub
 
-**Community**
-- r/ClaudeAI
-- r/LocalLLaMA
-- AI Engineering Discord servers
-
 </div>
 
 </div>
-
-</div>
-
-<div class="mt-8 p-4 bg-blue-500/10 rounded-lg text-center">
-
-### Continue with Stillriver
-
-**Advanced AI Engineering Workshop** - Deep dive into agents and automation
-
-hello@stillriver.dev | stillrivercode on GitHub
 
 </div>
 

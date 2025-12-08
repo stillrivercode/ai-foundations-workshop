@@ -2,88 +2,66 @@
 layout: default
 ---
 
-# Proven Prompt Patterns
+# Prompt → Slash Command
 
-<div class="grid grid-cols-3 gap-4 mt-6 text-sm">
-
-<div class="p-3 bg-slate-800 rounded-lg">
-<div class="font-bold text-cyan-400 mb-2">Role Pattern</div>
-
-```markdown
-You are a senior TypeScript
-developer who prioritizes
-type safety and readability.
-
-Review this code...
-```
+<div class="text-center opacity-80 mb-6">
+Turn your best prompts into reusable commands
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
-<div class="font-bold text-orange-400 mb-2">Template Pattern</div>
+<div class="grid grid-cols-2 gap-6">
+
+<div>
+
+### Step 1: Your Effective Prompt
 
 ```markdown
-Generate a [COMPONENT TYPE]
-that:
-- Does [PRIMARY FUNCTION]
-- Handles [EDGE CASE]
-- Returns [OUTPUT FORMAT]
+Review this code for:
+- Security vulnerabilities
+- Performance issues
+- Best practice violations
+
+Be specific about line numbers.
+Suggest fixes for each issue.
 ```
+
+<div class="mt-2 text-xs opacity-75">
+You've used this prompt 10+ times. Time to save it.
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
-<div class="font-bold text-green-400 mb-2">Critique Pattern</div>
+</div>
+
+<div>
+
+### Step 2: Save as Slash Command
 
 ```markdown
-Here's my implementation.
-Play devil's advocate:
-- What could break?
-- What did I miss?
-- How would this fail at scale?
+# .claude/commands/review.md
+---
+description: Security & performance review
+---
+Review this code for:
+- Security vulnerabilities
+- Performance issues
+- Best practice violations
+
+Be specific about line numbers.
+Suggest fixes for each issue.
+
+Review: $ARGUMENTS
 ```
+
+<div class="mt-2 text-xs opacity-75">
+Now anyone on your team can run <code>/review</code>
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
-<div class="font-bold text-purple-400 mb-2">Iterative Pattern</div>
-
-```markdown
-Let's build this in steps:
-1. First, outline the approach
-2. Wait for my feedback
-3. Then implement each part
-```
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
-<div class="font-bold text-red-400 mb-2">Constraint Pattern</div>
-
-```markdown
-Write this solution with
-these constraints:
-- No external dependencies
-- Must work in Node 18+
-- Max 50 lines
-```
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
-<div class="font-bold text-blue-400 mb-2">Output Pattern</div>
-
-```markdown
-Respond in this format:
-
-## Summary
-[1-2 sentences]
-
-## Code
-[implementation]
-
-## Usage
-[example]
-```
-</div>
-
+<div class="mt-4 p-3 bg-green-500/10 rounded-lg text-center text-sm">
+Your prompt library becomes your team's AI toolkit
 </div>
 
 <!--
-Patterns are reusable structures. Build a personal library of prompts that work for your common tasks.
+Every time you find yourself copying the same prompt, that's a sign it should be a slash command.
 -->

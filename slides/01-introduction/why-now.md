@@ -8,10 +8,10 @@ layout: two-cols
 
 ### The Shift Has Happened
 
-- GPT-4, Claude 3, Gemini Ultra in 2024
+- Claude 4, GPT-4o, Gemini 2.0 in 2025
 - Coding assistants are production-ready
-- Context windows expanded 10x-100x
-- Cost dropped 90% in 18 months
+- Context windows expanded to 200K+ tokens
+- Cost dropped 90% in 24 months
 
 </div>
 
@@ -30,13 +30,13 @@ The question isn't *if* but *how effectively*.
 <div class="pl-8 mt-4">
 
 ```
-2022: "AI can't write real code"
+2023: "AI can't write real code"
 
-2023: "It's a novelty"
-
-2024: "OK, it's useful for boilerplate"
+2024: "It's useful for boilerplate"
 
 2025: "We can't ship without it"
+
+2026: "AI is the entire workflow"
 ```
 
 <div class="mt-8 text-center">

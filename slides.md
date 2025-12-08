@@ -32,6 +32,10 @@ src: ./slides/01-introduction/welcome.md
 ---
 
 ---
+src: ./slides/01-introduction/about.md
+---
+
+---
 src: ./slides/01-introduction/agenda.md
 ---
 
@@ -64,10 +68,6 @@ src: ./slides/03-ai-tools-landscape/claude.md
 ---
 
 ---
-src: ./slides/03-ai-tools-landscape/chatgpt-codex.md
----
-
----
 src: ./slides/03-ai-tools-landscape/gemini.md
 ---
 
@@ -76,15 +76,19 @@ src: ./slides/03-ai-tools-landscape/choosing-tools.md
 ---
 
 ---
+src: ./slides/06-agent-memory/what-is-agent-memory.md
+---
+
+---
+src: ./slides/06-agent-memory/configuration-files.md
+---
+
+---
+src: ./slides/06-agent-memory/best-practices.md
+---
+
+---
 src: ./slides/04-working-with-llms/how-llms-work.md
----
-
----
-src: ./slides/04-working-with-llms/context-windows.md
----
-
----
-src: ./slides/04-working-with-llms/tokens-and-limits.md
 ---
 
 ---
@@ -100,31 +104,11 @@ src: ./slides/05-prompt-engineering/anatomy-of-prompt.md
 ---
 
 ---
-src: ./slides/05-prompt-engineering/techniques.md
----
-
----
 src: ./slides/05-prompt-engineering/patterns.md
 ---
 
 ---
-src: ./slides/05-prompt-engineering/common-mistakes.md
----
-
----
 src: ./slides/05-prompt-engineering/examples.md
----
-
----
-src: ./slides/06-agent-memory/what-is-agent-memory.md
----
-
----
-src: ./slides/06-agent-memory/configuration-files.md
----
-
----
-src: ./slides/06-agent-memory/best-practices.md
 ---
 
 ---
@@ -158,14 +142,20 @@ class: text-center
 Let's discuss what you've learned
 </div>
 
-<div class="flex gap-8 justify-center">
-  <div>
-    <carbon-email class="text-3xl mb-2" />
-    <div class="text-sm">hello@stillriver.dev</div>
+<div class="flex gap-12 justify-center items-center">
+  <div class="flex flex-col gap-4">
+    <div>
+      <carbon-email class="text-3xl mb-2" />
+      <div class="text-sm">admin@stillriver.info</div>
+    </div>
+    <div>
+      <carbon-logo-github class="text-3xl mb-2" />
+      <div class="text-sm">stillrivercode</div>
+    </div>
   </div>
-  <div>
-    <carbon-logo-github class="text-3xl mb-2" />
-    <div class="text-sm">stillrivercode</div>
+  <div class="text-center">
+    <img src="/adslaton-linktree.png" class="w-40 h-40" alt="Connect with A.D. Slaton" />
+    <div class="text-xs opacity-75 mt-2">Connect</div>
   </div>
 </div>
 

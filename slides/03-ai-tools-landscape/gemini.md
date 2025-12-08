@@ -1,52 +1,85 @@
 ---
-layout: two-cols
+layout: default
 ---
 
-# Gemini (Google)
+# Custom Slash Commands
 
-<div class="mt-4">
+<div class="text-center text-lg opacity-80 mb-6">
+Create reusable prompts for your team's workflows
+</div>
 
-### Strengths
-- Deep Google integration
-- Massive context windows (1M+ tokens)
-- Strong at data analysis
-- Native multimodal from ground up
-- Gemini CLI for developers
+<div class="grid grid-cols-3 gap-4">
 
-### Best For
-- Large codebase analysis
-- Data processing tasks
-- Google Workspace integration
-- Long document handling
+<div class="p-4 bg-orange-500/10 rounded-lg">
+
+### Claude Code
+<div class="text-xs opacity-75 mb-2">~/.claude/commands/ or .claude/commands/</div>
+
+```markdown
+# deploy.md
+---
+description: Deploy to production
+---
+Run the deployment script and
+verify the health checks pass.
+Check @package.json for scripts.
+```
+
+<div class="text-xs mt-2">
+Usage: <code>/deploy</code>
+</div>
 
 </div>
 
-::right::
+<div class="p-4 bg-blue-500/10 rounded-lg">
 
-<div class="pl-8 mt-4">
+### Gemini CLI
+<div class="text-xs opacity-75 mb-2">~/.gemini/commands/ or .gemini/commands/</div>
 
-### Models (2025)
-
-| Model | Use Case |
-|-------|----------|
-| 2.0 Ultra | Most capable |
-| 2.0 Pro | Balanced |
-| 2.0 Flash | Speed optimized |
-
-### Key Feature: Context Length
-
-```
-Claude:   200K tokens
-GPT-4:    128K tokens
-Gemini:   1M+ tokens
+```toml
+# review.toml
+description = "Code review"
+prompt = """
+Review the changes in {{args}}
+for security issues and
+best practices.
+"""
 ```
 
-<div class="mt-4 text-sm opacity-75">
-Entire codebases in a single context
+<div class="text-xs mt-2">
+Usage: <code>/review src/api</code>
 </div>
 
+</div>
+
+<div class="p-4 bg-green-500/10 rounded-lg">
+
+### OpenAI Codex
+<div class="text-xs opacity-75 mb-2">~/.codex/prompts/</div>
+
+```markdown
+# test.md
+---
+description: Generate tests
+argument-hint: [file]
+---
+Write comprehensive tests
+for $1 using our testing
+conventions.
+```
+
+<div class="text-xs mt-2">
+Usage: <code>/prompts:test api.ts</code>
+</div>
+
+</div>
+
+</div>
+
+<div class="mt-4 p-3 bg-purple-500/10 rounded text-center text-sm">
+Custom commands + agent memory = <strong>AI that works exactly how your team works</strong>
 </div>
 
 <!--
-Gemini's context window is its superpower. You can feed it entire repositories and have meaningful conversations about the whole system.
+Custom slash commands let you encode your team's workflows. Combined with memory files, you get consistent, team-specific AI assistance.
 -->

@@ -15,11 +15,6 @@ From concepts to practical application in 105 minutes
   <carbon-rocket class="text-4xl text-purple-400" />
 </div>
 
-### Your Facilitator
-
-<div class="text-sm opacity-75">
-[Facilitator Name] | AI Engineering Lead | Stillriver
-</div>
 
 <!--
 Welcome everyone. Today we're going to demystify AI engineering and give you practical skills you can use immediately.

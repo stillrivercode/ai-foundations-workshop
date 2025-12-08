@@ -16,7 +16,7 @@ layout: default
 <div class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm flex-shrink-0">1</div>
 <div>
 <div class="font-bold">Pick one tool</div>
-<div class="text-sm opacity-75">Claude Code, Gemini CLI, or Copilot</div>
+<div class="text-sm opacity-75">Claude Code, Gemini CLI, or Codex</div>
 </div>
 </div>
 
@@ -24,7 +24,7 @@ layout: default
 <div class="bg-blue-500 text-white rounded-full w-6 h-6 flex items-center justify-center text-sm flex-shrink-0">2</div>
 <div>
 <div class="font-bold">Create your first config file</div>
-<div class="text-sm opacity-75">CLAUDE.md or GEMINI.md in a project</div>
+<div class="text-sm opacity-75">CLAUDE.md, GEMINI.md, or AGENTS.md</div>
 </div>
 </div>
 

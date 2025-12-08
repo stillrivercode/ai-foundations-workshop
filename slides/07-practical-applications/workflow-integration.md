@@ -26,17 +26,17 @@ layout: default
 
 <div class="grid grid-cols-3 gap-4 mt-6 text-sm">
 
-<div class="p-3 bg-slate-800 rounded-lg">
+<div class="p-3 bg-blue-500/10 rounded-lg">
 <div class="font-bold mb-1">Morning Standup</div>
 Use AI to summarize PRs and plan the day's work
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
+<div class="p-3 bg-green-500/10 rounded-lg">
 <div class="font-bold mb-1">During Coding</div>
 Inline completion + chat for complex problems
 </div>
 
-<div class="p-3 bg-slate-800 rounded-lg">
+<div class="p-3 bg-purple-500/10 rounded-lg">
 <div class="font-bold mb-1">Before PR</div>
 AI review for missed edge cases and style issues
 </div>
