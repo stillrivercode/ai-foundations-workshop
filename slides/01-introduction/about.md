@@ -28,7 +28,9 @@ Committed to pushing the boundaries of **Agentic AI** and enabling teams to succ
 </div>
 
 <div class="flex-shrink-0 text-center">
-  <img src="/adslaton-linktree.png" class="w-32 h-32" alt="Connect with A.D. Slaton" />
+  <div class="bg-white p-2 rounded-lg">
+    <img src="/adslaton-linktree.png" class="w-32 h-32" alt="Connect with A.D. Slaton" />
+  </div>
   <div class="text-xs opacity-75 mt-2">Connect</div>
 </div>
 

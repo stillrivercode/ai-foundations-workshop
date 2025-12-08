@@ -4,6 +4,7 @@ background: https://images.unsplash.com/photo-1620712943543-bcc4688e7485
 class: text-center
 highlighter: shiki
 lineNumbers: false
+colorSchema: auto
 info: |
   ## Foundations in AI Engineering
   A comprehensive introduction to AI-powered development
@@ -154,7 +155,9 @@ Let's discuss what you've learned
     </div>
   </div>
   <div class="text-center">
-    <img src="/adslaton-linktree.png" class="w-40 h-40" alt="Connect with A.D. Slaton" />
+    <div class="bg-white p-2 rounded-lg inline-block">
+      <img src="/adslaton-linktree.png" class="w-40 h-40" alt="Connect with A.D. Slaton" />
+    </div>
     <div class="text-xs opacity-75 mt-2">Connect</div>
   </div>
 </div>
