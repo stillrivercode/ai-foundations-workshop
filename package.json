@@ -1,0 +1,33 @@
+{
+  "name": "ai-foundations-workshop",
+  "version": "1.0.0",
+  "description": "Foundations in AI Engineering - A 1hr 45min presentation by Stillriver",
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build",
+    "export": "slidev export",
+    "export-notes": "slidev export-notes",
+    "preview": "slidev preview"
+  },
+  "dependencies": {
+    "@slidev/cli": "52.2.4",
+    "@slidev/theme-default": "0.25.0",
+    "@slidev/theme-seriph": "0.25.0"
+  },
+  "devDependencies": {
+    "playwright-chromium": "1.55.1"
+  },
+  "engines": {
+    "node": "23.x"
+  },
+  "keywords": [
+    "slidev",
+    "ai-engineering",
+    "foundations",
+    "stillriver",
+    "training"
+  ],
+  "author": "Stillriver",
+  "license": "MIT"
+}
