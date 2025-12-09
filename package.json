@@ -11,6 +11,7 @@
     "preview": "slidev preview"
   },
   "dependencies": {
+    "@clerk/vue": "^1.0.7",
     "@slidev/cli": "52.2.4",
     "@slidev/theme-default": "0.25.0",
     "@slidev/theme-seriph": "0.25.0"
