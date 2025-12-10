@@ -48,9 +48,9 @@ Each slide is a markdown file with YAML frontmatter for layout configuration. Co
 Total: 105 minutes (1hr 45min)
 - Introduction: 10 min (3 slides)
 - What is AI Engineering: 15 min (4 slides)
-- AI Tools Landscape: 15 min (5 slides)
-- Working with LLMs: 15 min (4 slides)
+- AI Tools Landscape: 15 min (5 slides) - Focus on categories vs deep-dives
+- Working with LLMs: 15 min (4 slides) - Conceptual for mixed-technical audience
 - Prompt Engineering: 20 min (6 slides)
 - Agent Memory: 15 min (3 slides)
-- Practical Applications: 10 min (3 slides)
-- Getting Started: 5 min (2 slides + Q&A)
+- Practical Applications: 5 min (3 slides) - Examples woven throughout workshop
+- Getting Started & Q&A: 10 min (2 slides) - Expanded for discussion

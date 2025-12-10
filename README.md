@@ -16,12 +16,18 @@ This presentation introduces developers to AI engineering concepts, tools, and p
 |---------|----------|--------|
 | Introduction | 10 min | Welcome, agenda, why AI now |
 | What is AI Engineering | 15 min | Definition, roles, skills |
-| AI Tools Landscape | 15 min | Claude, ChatGPT, Gemini, Copilot |
-| Working with LLMs | 15 min | How they work, context, tokens |
+| AI Tools Landscape | 15 min | Tool categories, key players comparison |
+| Working with LLMs | 15 min | Context windows, tokens, prompting basics |
 | Prompt Engineering | 20 min | Techniques, patterns, examples |
 | Agent Memory | 15 min | Configuration files, best practices |
-| Practical Applications | 10 min | Use cases, workflow integration |
-| Getting Started | 5 min | Next steps, resources, Q&A |
+| Practical Applications | 5 min | Use cases overview (examples woven throughout) |
+| Getting Started & Q&A | 10 min | Next steps, resources, discussion |
+
+**Timing Notes:**
+- Q&A expanded to 10 minutes to allow for engaged discussion
+- "Practical Applications" reduced to 5 minutes as examples are demonstrated throughout other sections
+- "AI Tools Landscape" focuses on tool categories rather than deep-dives into 4+ products
+- "Working with LLMs" calibrated for mixed-technical audience (conceptual over implementation details)
 
 ## Quick Start
 
