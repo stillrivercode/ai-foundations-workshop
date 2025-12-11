@@ -74,7 +74,7 @@ You'll be able to:
 
 Stillriver empowers development teams to adopt AI with confidence. We provide training, consulting, and implementation support for organizations at every stage of their AI journey.
 
-**Learn more:** admin@stillriver.info | github.com/stillrivercode
+**Learn more:** contact@stillriver.info | github.com/stillrivercode
 
 ---
 
@@ -85,7 +85,7 @@ Stillriver empowers development teams to adopt AI with confidence. We provide tr
 **Group Size:** Works for teams of 5-50
 **Materials:** Slide deck, hands-on examples, resource guide
 
-**Contact us to schedule:** admin@stillriver.info
+**Contact us to schedule:** contact@stillriver.info
 
 ---
 
